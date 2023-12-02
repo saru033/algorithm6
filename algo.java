@@ -2,7 +2,7 @@ package schedule;
 
 public class algo {	
 	
-	//우선순위와 학점에 까라 강의 정렬
+	//우선순위와 학점에 따라 강의 정렬
 	public static sch[] sort_subjects_by_priority_and_credit(sch[] a, int n) {
 		sch c = new sch();
 		for(int i = 0;i <n-1;i++){
